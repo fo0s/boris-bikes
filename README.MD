@@ -80,12 +80,12 @@ Refactored it using `**Single Responsibility Principle**` making sure
 each method had one job only. It takes a special kind of method to
 pull this off. Good method.
 
-#### 16 + 17
+#### Step 16 + 17
 
 Started using `Constants Variables` to cement the max capacity value. This
 will also become the dafault value.
 
-#### 18
+#### Step 18
 
 Started to impliment a reporting system where a user can flag a specific
 bike as being broken. The `DockingStation` will then go though each bike
