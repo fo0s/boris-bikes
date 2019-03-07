@@ -6,11 +6,17 @@
 
 Ruby
 
-### How to use
+# How to use
 
 From the command line, enter;
 
 > ruby ./boris-bikes/boris-bikes.rb
+
+### Basic User Story Diagram
+
+
+| User |  --> | Bike  |  -->  | DockingStation |
+|:----:|:----:|:-----:|:-----:|:--------------:|
 
 #### Step 1
 
@@ -56,6 +62,38 @@ Starting to raise errors now. We're getting so used to them that we might
 as well customise them.
 
 #### Step 13
+
+Writing tests that expect errors. Make them suffer too.
+
+#### Step 14
+
+Finally starting to look at DockingStation as an actual dock that
+can hold more than 1 bike. Implimented this by creating an array
+and storing the max capacity of 20 bikes within.
+As usual keeping up with the `RED-GREEN-REFACTOR` process.
+All green at the moment.
+
+#### Step 15
+
+Took a sledge hammer to the code and broke some parts down to smaller pieces.
+Refactored it using `**Single Responsibility Principle**` making sure
+each method had one job only. It takes a special kind of method to
+pull this off. Good method.
+
+#### 16 + 17
+
+Started using `Constants Variables` to cement the max capacity value. This
+will also become the dafault value.
+
+#### 18
+
+Started to impliment a reporting system where a user can flag a specific
+bike as being broken. The `DockingStation` will then go though each bike
+to check it's state, only releasing it if it's good to go.
+
+**STILL IN PROGRESS**
+
+
 
 
 ### Contributors
