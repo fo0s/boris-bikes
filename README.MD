@@ -45,6 +45,17 @@ Building the bike class and having the docking class recognise it.
 
 Making sure the docking station releases the bikes if it's working.
 
+#### Step 11
+
+Ability to dock a bike. This of course will accept all the bikes given to it.
+This will have to be changed later.
+
+#### Step 12
+
+Starting to raise errors now. We're getting so used to them that we might
+as well customise them.
+
+#### Step 13
 
 
 ### Contributors
